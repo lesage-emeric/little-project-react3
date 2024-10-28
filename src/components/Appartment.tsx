@@ -31,7 +31,7 @@ const Appartment = () => {
 	return (
 		<>
 			{objects.map((element) => (
-				<a href={element.url}>
+				<a key={element.name} href={element.url}>
 					<img src={element.imgSrc} alt={element.name} />
 				</a>
 			))}
