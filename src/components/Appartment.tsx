@@ -1,6 +1,16 @@
 const Appartment = () => {
 	const objects = [
 		{
+			name: "Table",
+			imgSrc: "public/imgFlower.png",
+			url: "https://www.lejardindesfleurs.com/",
+		},
+		{
+			name: "Bookshelf",
+			imgSrc: "public/imgBookshelf.png",
+			url: "https://wwww.amazon.com/",
+		},
+		{
 			name: "TV",
 			imgSrc:
 				"public/pngtree-flat-screen-tv-transparent-png-free-clipart-png-image_5190594-removebg-preview.png",
@@ -16,24 +26,16 @@ const Appartment = () => {
 			imgSrc: "public/imgFridge.png",
 			url: "https://www.chronodrive.com/",
 		},
-		{
-			name: "Table",
-			imgSrc: "public/imgFlower.png",
-			url: "https://www.lejardindesfleurs.com/",
-		},
-		{
-			name: "Bookshelf",
-			imgSrc: "public/imgBookshelf.png",
-			url: "https://wwww.amazon.com/",
-		},
 	];
 
 	return (
 		<>
 			{objects.map((element) => (
-				<a key={element.name} href={element.url}>
-					<img src={element.imgSrc} alt={element.name} />
-				</a>
+				<div key={element.name} className={element.name}>
+					<a key={element.name} href={element.url}>
+						<img src={element.imgSrc} alt={element.name} />
+					</a>
+				</div>
 			))}
 		</>
 	);
