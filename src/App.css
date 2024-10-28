@@ -1,3 +1,30 @@
 body {
   background-color: rgba(177, 112, 27, 0.938);
 }
+
+:root {
+  --red-color-friends: rgb(233, 30, 35);
+  --blue-color-friends: rgb(2, 178, 231);
+  --yellow-color-friends: rgb(250, 188, 22);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+.dot {
+  font-size: 5rem;
+  display: flex;
+  align-items: baseline;
+}
+.dot1 {
+  color: var(--red-color-friends);
+}
+.dot2 {
+  color: var(--blue-color-friends);
+}
+.dot3 {
+  color: var(--yellow-color-friends);
+}
