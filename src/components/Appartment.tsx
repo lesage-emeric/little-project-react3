@@ -1,3 +1,6 @@
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
+
 const Appartment = () => {
 	const objects = [
 		{
@@ -32,18 +35,24 @@ const Appartment = () => {
 
 	return (
 		<>
-			{objects.map((element) => (
-				<div key={element.name} className={element.name}>
-					<a
-						key={element.name}
-						href={element.url}
-						target="_blank"
-						rel="noreferrer"
-					>
-						<img src={element.imgSrc} alt={element.name} />
-					</a>
-				</div>
-			))}
+			{objects.map((element) =>
+						<div key={element.name} className={element.name}>
+		{element.name === "TV" ? 		
+					<Popup trigger={<img src={element.imgSrc}/>} position="right center">
+						<div>Popup content here !!</div>
+					</Popup>
+				:
+						<a
+							key={element.name}
+							href={element.url}
+							target="_blank"
+							rel="noreferrer"
+						>}
+							<img src={element.imgSrc} alt={element.name} />
+						</a>
+					</div>
+				
+			)}
 		</>
 	);
 };

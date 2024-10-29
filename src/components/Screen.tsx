@@ -1,3 +1,4 @@
+import "./Screen.css";
 import { useState } from "react";
 
 const moovies = [

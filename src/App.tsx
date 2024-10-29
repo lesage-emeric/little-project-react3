@@ -4,6 +4,8 @@ import Avatar from "./components/Avatar";
 import Counch from "./components/Counch/Counch";
 import NavBar from "./components/NavBar/NavBar";
 import Screen from "./components/Screen";
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
 
 const Friends = [
 	{
