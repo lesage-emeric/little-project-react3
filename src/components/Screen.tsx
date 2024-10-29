@@ -20,13 +20,13 @@ const moovies = [
 ];
 
 const Screen = () => {
-	const handleClick = () => {
-		const [filmIndex, setFilmIndex] = useState(0);
-		setFilmIndex(filmIndex + 1);
-	};
+	// const changeImgSrcClick = () => {
+	// 	const [filmIndex, setFilmIndex] = useState(0);
+	// 	setFilmIndex(filmIndex + 1);
+	// };
 	return (
 		<>
-			<img src="" alt="" />
+			<img src="public/imgRings.png" alt="" />
 		</>
 	);
 };

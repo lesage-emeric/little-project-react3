@@ -6,13 +6,13 @@ const Appartment = () => {
 				"public/pngtree-flat-screen-tv-transparent-png-free-clipart-png-image_5190594-removebg-preview.png",
 			url: "https://www.tf1.fr/",
 		},
-		
+
 		{
 			name: "Bookshelf",
 			imgSrc: "public/imgBookshelf.png",
 			url: "https://wwww.amazon.com/",
 		},
-		
+
 		{
 			name: "Counch",
 			imgSrc: "public/imgCounch.png",
@@ -34,7 +34,12 @@ const Appartment = () => {
 		<>
 			{objects.map((element) => (
 				<div key={element.name} className={element.name}>
-					<a key={element.name} href={element.url}>
+					<a
+						key={element.name}
+						href={element.url}
+						target="_blank"
+						rel="noreferrer"
+					>
 						<img src={element.imgSrc} alt={element.name} />
 					</a>
 				</div>
