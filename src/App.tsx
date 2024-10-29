@@ -3,6 +3,7 @@ import Appartment from "./components/Appartment";
 import Avatar from "./components/Avatar";
 import Counch from "./components/Counch/Counch";
 import NavBar from "./components/NavBar/NavBar";
+import Screen from "./components/Screen";
 
 const Friends = [
 	{
@@ -38,6 +39,9 @@ function App() {
 			</nav>
 			<div className="Room">
 				<Appartment />
+			</div>
+			<div className="Cinema">
+				<Screen />
 			</div>
 		</>
 	);

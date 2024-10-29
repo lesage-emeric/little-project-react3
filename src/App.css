@@ -51,3 +51,12 @@ nav {
 .Kitchen {
 	grid-area: 2 / 4 / 3 / 5;
 }
+
+.Cinema {
+	background-color: white;
+	width: 80vw;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
