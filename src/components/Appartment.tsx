@@ -1,25 +1,27 @@
 const Appartment = () => {
 	const objects = [
 		{
-			name: "Table",
-			imgSrc: "public/imgFlower.png",
-			url: "https://www.lejardindesfleurs.com/",
-		},
-		{
-			name: "Bookshelf",
-			imgSrc: "public/imgBookshelf.png",
-			url: "https://wwww.amazon.com/",
-		},
-		{
 			name: "TV",
 			imgSrc:
 				"public/pngtree-flat-screen-tv-transparent-png-free-clipart-png-image_5190594-removebg-preview.png",
 			url: "https://www.tf1.fr/",
 		},
+		
+		{
+			name: "Bookshelf",
+			imgSrc: "public/imgBookshelf.png",
+			url: "https://wwww.amazon.com/",
+		},
+		
 		{
 			name: "Counch",
 			imgSrc: "public/imgCounch.png",
 			url: "https://www.ikea.com/fr/fr/",
+		},
+		{
+			name: "Table",
+			imgSrc: "public/imgFlower.png",
+			url: "https://www.lejardindesfleurs.com/",
 		},
 		{
 			name: "Kitchen",
