@@ -1,32 +1,36 @@
 import { useState } from "react";
 
-const moovies = [
+const Cinema = [
 	{
 		name: "The Lord of the Rings",
 		img: "public/imgRings.png",
 	},
-	{
-		name: "Saving Private Ryan",
-		img: "public/imgRyan.png",
-	},
-	{
-		name: "Star Wars: Episode III – Revenge of the Sith",
-		img: "public/imgSith.png",
-	},
-	{
-		name: "Dune",
-		img: "public/imgDune.png",
-	},
+	// {
+	// 	name: "Saving Private Ryan",
+	// 	img: "public/imgRyan.png",
+	// },
+	// {
+	// 	name: "Star Wars: Episode III – Revenge of the Sith",
+	// 	img: "public/imgSith.png",
+	// },
+	// {
+	// 	name: "Dune",
+	// 	img: "public/imgDune.png",
+	// },
 ];
 
 const Screen = () => {
-	// const changeImgSrcClick = () => {
-	// 	const [filmIndex, setFilmIndex] = useState(0);
-	// 	setFilmIndex(filmIndex + 1);
-	// };
+	const [moovie, setMoovie] = useState(0);
+
 	return (
 		<>
-			<img src="public/imgRings.png" alt="" />
+			<ul>
+				{Cinema.map((film) => (
+					<li>
+						<img key={film.name} src={film.img} alt={film.name} />
+					</li>
+				))}
+			</ul>
 		</>
 	);
 };

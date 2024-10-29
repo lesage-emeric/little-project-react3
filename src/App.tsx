@@ -41,13 +41,11 @@ function App() {
 			</nav>
 			<div className="Room">
 				<Appartment />
-				<Popup trigger={<button> Trigger</button>} position="left center">
-					<div>Popup content here !!</div>
+				<Popup id="popup" trigger={<button></button>} position="left center">
+					<div>
+						<Screen />
+					</div>
 				</Popup>
-				);
-			</div>
-			<div className="Cinema">
-				<Screen />
 			</div>
 		</>
 	);

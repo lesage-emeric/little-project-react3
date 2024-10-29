@@ -1,80 +1,80 @@
 body {
-  background-image: url("salon-vide-dans-appartement-moderne_529539-69.avif");
-  background-size: cover;
+	background-image: url("salon-vide-dans-appartement-moderne_529539-69.avif");
+	background-size: cover;
 }
 
 :root {
-  --red-color-friends: rgb(233, 30, 35);
-  --blue-color-friends: rgb(2, 178, 231);
-  --yellow-color-friends: rgb(250, 188, 22);
+	--red-color-friends: rgb(233, 30, 35);
+	--blue-color-friends: rgb(2, 178, 231);
+	--yellow-color-friends: rgb(250, 188, 22);
 }
 
 nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
-  display: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	display: none;
 }
 .dot {
-  font-size: 5rem;
-  display: flex;
-  align-items: baseline;
+	font-size: 5rem;
+	display: flex;
+	align-items: baseline;
 }
 .dot1 {
-  color: var(--red-color-friends);
+	color: var(--red-color-friends);
 }
 .dot2 {
-  color: var(--blue-color-friends);
+	color: var(--blue-color-friends);
 }
 .dot3 {
-  color: var(--yellow-color-friends);
+	color: var(--yellow-color-friends);
 }
 
 .Room {
-  display: flex;
+	display: flex;
 
-  width: 100%;
+	width: 100%;
 }
 
 .Table {
-  width: 20%;
-  display: flex;
-  justify-content: end;
-  margin-top: 34%;
+	width: 20%;
+	display: flex;
+	justify-content: end;
+	margin-top: 34%;
 }
 .Table img {
-  width: 80%;
+	width: 80%;
 }
 .Bookshelf {
-  margin-top: 2%;
-  width: 20%;
+	margin-top: 2%;
+	width: 20%;
 }
 .Bookshelf img {
-  width: 100%;
-  margin-top: 105%;
+	width: 100%;
+	margin-top: 105%;
 }
 .TV {
-  margin-top: 30%;
-  width: 20%;
+	margin-top: 30%;
+	width: 20%;
 }
 .TV img {
-  width: 95%;
+	width: 95%;
 }
 .Counch {
-  width: 20%;
-  margin-top: 25%;
+	width: 20%;
+	margin-top: 25%;
 }
 .Counch img {
-  width: 165%;
+	width: 165%;
 }
 .Kitchen {
-  width: 20%;
-  margin-top: 25%;
+	width: 20%;
+	margin-top: 25%;
 }
 
 .Kitchen img {
-  width: 130%;
+	width: 130%;
 }
 
 .Cinema {
@@ -84,4 +84,19 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+button {
+	border-radius: 100%;
+	background-color: black;
+	height: 13px;
+	width: 13px;
+	position: absolute;
+	margin-top: 43%;
+	margin-left: 16%;
+}
+
+#popup {
+	width: 100%;
+	object-fit: cover;
 }
