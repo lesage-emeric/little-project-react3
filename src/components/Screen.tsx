@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+
 const Cinema = [
 	{
 		name: "The Lord of the Rings",
